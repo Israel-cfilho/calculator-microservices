@@ -1,0 +1,18 @@
+version: '3'
+services:
+  addition:
+    build: ./addition
+    ports:
+      - "3001:3001"
+  subtraction:
+    build: ./subtraction
+    ports:
+      - "3002:3002"
+  multiplication:
+    build: ./multiplication
+    ports:
+      - "3003:3003"
+  division:
+    build: ./division
+    ports:
+      - "3004:3004"
